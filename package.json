@@ -1,0 +1,24 @@
+{
+  "name": "geometer",
+  "version": "1.0.0",
+  "description": "A bot designed to make your life fun!",
+  "main": "index.js",
+  "dependencies": {
+    "@discordjs/opus": "^0.3.2",
+    "discord.js": "^12.3.1",
+    "ffmpeg-static": "^4.2.7",
+    "mojangjs": "^2.0.3",
+    "node-fetch": "^2.6.1",
+    "sequelize": "^6.3.5",
+    "sqlite3": "^5.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "pm2 start Geometer",
+    "stop": "pm2 stop Geometer",
+    "restart": "pm2 restart all"
+  },
+  "author": "Geomty",
+  "license": "ISC"
+}
